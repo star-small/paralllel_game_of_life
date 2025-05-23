@@ -235,14 +235,6 @@ export OMP_DISPLAY_ENV=TRUE
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
-
-- **John Conway** - Creator of the Game of Life
-- **MPI Forum** - Message Passing Interface specification
-- **OpenMP Architecture Review Board** - OpenMP specification
-- **Our amazing contributors** - Making this project better every day
-
----
 
 <div align="center">
 
