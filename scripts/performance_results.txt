@@ -1,0 +1,12 @@
+# Conway's Game of Life - Performance Results
+Configuration,MPI_Processes,OpenMP_Threads,Total_Cores,Real_Time,User_Time,Sys_Time,Speedup
+Serial_Baseline,1,1,1,timeout: failed to run command ‘/usr/bin/time’: No such file or directory,timeout: failed to run command ‘/usr/bin/time’: No such file or directory,0.0,1.00
+Pure_OpenMP_2T,1,2,2,timeout: failed to run command ‘/usr/bin/time’: No such file or directory,timeout: failed to run command ‘/usr/bin/time’: No such file or directory,0.1,1.0
+Pure_OpenMP_4T,1,4,4,timeout: failed to run command ‘/usr/bin/time’: No such file or directory,timeout: failed to run command ‘/usr/bin/time’: No such file or directory,0.1,1.0
+Pure_OpenMP_8T,1,8,8,timeout: failed to run command ‘/usr/bin/time’: No such file or directory,timeout: failed to run command ‘/usr/bin/time’: No such file or directory,0.1,1.0
+Pure_MPI_2P,2,1,2,timeout: failed to run command ‘/usr/bin/time’: No such file or directory,timeout: failed to run command ‘/usr/bin/time’: No such file or directory,0.1,1.0
+Hybrid_2P_2T,2,2,4,timeout: failed to run command ‘/usr/bin/time’: No such file or directory,timeout: failed to run command ‘/usr/bin/time’: No such file or directory,0.1,1.0
+Hybrid_2P_4T,2,4,8,timeout: failed to run command ‘/usr/bin/time’: No such file or directory,timeout: failed to run command ‘/usr/bin/time’: No such file or directory,0.1,1.0
+Pure_MPI_4P,4,1,4,timeout: failed to run command ‘/usr/bin/time’: No such file or directory,timeout: failed to run command ‘/usr/bin/time’: No such file or directory,0.1,1.0
+Hybrid_4P_2T,4,2,8,timeout: failed to run command ‘/usr/bin/time’: No such file or directory,timeout: failed to run command ‘/usr/bin/time’: No such file or directory,0.1,1.0
+Pure_MPI_8P,8,1,8,timeout: failed to run command ‘/usr/bin/time’: No such file or directory,timeout: failed to run command ‘/usr/bin/time’: No such file or directory,0.1,1.0
